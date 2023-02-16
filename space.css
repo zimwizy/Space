@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    height:80% ;
+    width:100% ;
+}
+.logo a {
+    color: #1D3164;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.container {padding: 0;
+margin: 0%;}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li a {
+    color: #1D3164;
+margin-left: 100px;
+font-size: 20px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:1000px) {
+    .main    
+{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+.main .center {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.main .right {
+    text-align: right;
+}
+.main .right h3{
+    padding-top: 20%;
+    margin-bottom: 20%;
+    font-size: 40px;
+    color: #1D3164;
+}
+.main .right a {
+    color: #727272;
+}
+.main .right .buttons {
+    margin-top: 20%;
+}
+.buttons .btn {
+    border-radius: 50px;
+}
+#btn1 {
+    background: linear-gradient(90deg, #7946AB 0%, #2565C9 100%);
+    color: white;
+}
+#btn2 {
+    border: 1px solid rgba(114, 114, 114, 1);
+    color: rgba(114, 114, 114, 1);
+    margin-left: 50px;
+}
+#img1 {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.rocket {
+    height: 100%;
+    width: 100%;
+display: none;
+}
+.rocket img {
+   padding-top: 5%;
+   width: 40%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-self: end;
+   margin: auto;
+   
+}

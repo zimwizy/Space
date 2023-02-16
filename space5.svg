@@ -1,0 +1,24 @@
+<svg width="333" height="319" viewBox="0 0 333 319" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="173" cy="159" r="125" fill="url(#paint0_radial_2_36)"/>
+<path d="M285.259 52.7279C291.457 59.6677 294.183 69.2254 293.694 80.6888C293.204 92.1587 289.494 105.469 282.9 119.783C269.713 148.407 245.073 180.866 212.082 210.331C179.09 239.796 144.064 260.625 114.137 270.506C99.1717 275.448 85.5287 277.636 74.0765 276.831C62.6308 276.027 53.4407 272.242 47.2427 265.303C41.0447 258.363 38.3186 248.805 38.8081 237.342C39.2979 225.872 43.0078 212.562 49.602 198.248C62.7891 169.624 87.4284 137.165 120.42 107.699C153.412 78.2341 188.438 57.4052 218.365 47.5241C233.33 42.583 246.973 40.395 258.425 41.1994C269.871 42.0035 279.061 45.7881 285.259 52.7279Z" stroke="url(#paint1_linear_2_36)" stroke-width="2"/>
+<path d="M252 144C188 179.5 138 159 149 198.5C79.9644 198.5 48 228.036 48 159C48 89.9644 103.964 34 173 34C242.036 34 265 74 252 144Z" fill="url(#paint2_radial_2_36)"/>
+<circle cx="279.5" cy="45.5" r="11.5" fill="url(#paint3_diamond_2_36)"/>
+<defs>
+<radialGradient id="paint0_radial_2_36" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(262.5 245) rotate(-138.705) scale(246.234)">
+<stop stop-color="#F03CAF"/>
+<stop offset="1" stop-color="#257CC0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_2_36" x1="279.184" y1="49.5688" x2="48.0692" y2="270.441" gradientUnits="userSpaceOnUse">
+<stop stop-color="#07D1DF"/>
+<stop offset="1" stop-color="#1BFFAD" stop-opacity="0.27"/>
+</linearGradient>
+<radialGradient id="paint2_radial_2_36" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(262.5 245) rotate(-138.705) scale(246.234 246.234)">
+<stop stop-color="#F03CAF"/>
+<stop offset="1" stop-color="#257CC0"/>
+</radialGradient>
+<radialGradient id="paint3_diamond_2_36" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(283.5 34) rotate(101.07) scale(23.4361)">
+<stop stop-color="#2DB5E7"/>
+<stop offset="1" stop-color="#34E5D3"/>
+</radialGradient>
+</defs>
+</svg>

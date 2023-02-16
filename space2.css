@@ -1,0 +1,105 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    height:80% ;
+    width:100% ;
+}
+.logo a {
+    color: #1D3164;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li a {
+    color: #1D3164;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.container {
+    margin-top: 70px;
+    padding: 0%;
+}
+@media (max-width: 700px){
+.main {
+    display: flex;
+flex-direction: column;}
+}
+.col-5 {
+    flex: 40%;
+}
+.col-5 img {
+    border-radius: 100%;
+    width: 90%;
+    height: 90%;
+    display: block;
+}
+.col-5 h3 {
+    color: #1D3164;
+    font-weight: 400;
+}
+.col-5 p {
+    color: #727272;
+}
+.btn {
+    border-radius: 25px;
+    width: 25%;
+    border-color: #727272;
+    color: #727272;
+    margin-top: 30px;
+}
+.col-5 h6 {
+    color: #1D3164;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex:50%
+}
+.ecl {
+    background-color: black;
+    border-radius: 100%;
+    width: 30%;
+    height: 30%;
+}
+.ecl2 {
+    background-color: black;
+    border-radius: 100%;
+    width: 60%;
+    height: 20%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+@media (max-width: 1000px) {
+    .col-5, .col-2, p, h3{
+      flex: 100%;
+      text-align: center;
+      width: 100% !important; 
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .row{
+      flex: 100%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width: 100%;
+    }
+  }
